@@ -2,28 +2,40 @@ import Logo from "./subComponents/Logo"
 import PowerButton from "./subComponents/PowerButton"
 import Link from "next/link"
 
-const Header = () => {
+const Header = ({ click }) => {
   return (
-    <header className="flex items-center justify-between">
+    <header className="fixed z-[4] top-0 left-0 p-[2rem] w-full flex items-center justify-between">
       <div className="flex items-center gap-[3rem]">
-        <Logo />
+        <Logo click={click} />
 
         <div className="flex items-center gap-x-5">
           <Link href="/">
-            <a>Home</a>
+            <a
+              style={{
+                color: click ? "#fcf6f4" : "#000",
+              }}
+            >
+              Works
+            </a>
           </Link>
           <Link href="/">
-            <a>Link</a>
+            <a
+              style={{
+                color: click ? "#fcf6f4" : "#000",
+              }}
+            >
+              Skills
+            </a>
           </Link>
         </div>
       </div>
 
       <div className="flex items-center gap-x-5">
         <Link href="/">
-          <a>Home</a>
+          <a>About</a>
         </Link>
         <Link href="/">
-          <a>Link</a>
+          <a>Experience</a>
         </Link>
       </div>
 

@@ -1,7 +1,16 @@
 import Head from "next/head"
-import Image from "next/image"
+import { useState } from "react"
+import Header from "../components/Header"
+import Intro from "../components/Intro"
+import BigLogo from "../components/subComponents/BigLogo"
+import DarkSide from "../components/subComponents/DarkSide"
+import Socials from "../components/subComponents/Socials"
 
 export default function Home() {
+  const [click, setClick] = useState(false)
+
+  const handleClick = () => setClick(!click)
+
   return (
     <div className="page">
       <Head>
@@ -10,7 +19,11 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <h1 className="text-3xl font-bold underline">Hello world!</h1>
+      <Header click={click} />
+      <DarkSide click={click} />
+      <BigLogo click={click} handleClick={handleClick} />
+      <Socials click={click} />
+      {click ? <Intro click={click} /> : null}
     </div>
   )
 }

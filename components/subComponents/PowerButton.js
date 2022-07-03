@@ -4,12 +4,11 @@ const PowerButton = () => {
   return (
     <>
       <Link href="/">
-        <a className="bg-transparent fixed top-[2rem] left-[50%] transform translate-x-[-50%] p-[.3rem] rounded-[50%] border-[1px] border-black w-[2.5rem] flex justify-center items-center z-[3] cursor-pointer transition duration-[.3s] ease-in-out hover:bg-power-rgba hover:shadow-power">
+        <a className="bg-[#fcf6f4] fixed top-[3rem] left-[50%] transform translate-x-[-50%] p-[.3rem] rounded-[50%] border-[1px] border-black w-[2.5rem] flex justify-center items-center z-[3] cursor-pointer transition duration-[.3s] ease-in-out hover:bg-power-rgba hover:shadow-power">
           <svg
             aria-hidden="true"
             data-prefix="fas"
             data-icon="power-off"
-            class="prefix__svg-inline--fa prefix__fa-power-off prefix__fa-w-16"
             xmlns="http://www.w3.org/2000/svg"
             viewBox="0 0 512 512"
             width="30"

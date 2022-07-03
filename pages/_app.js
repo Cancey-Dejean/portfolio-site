@@ -1,12 +1,12 @@
-import Header from "../components/Header"
+import { useState } from "react"
+import Layout from "../components/Layout"
 import "../styles/globals.css"
 
 function MyApp({ Component, pageProps }) {
   return (
-    <main className="w-screen h-screen relative overflow-hidden p-[2rem]">
-      <Header />
+    <Layout>
       <Component {...pageProps} />
-    </main>
+    </Layout>
   )
 }
 
