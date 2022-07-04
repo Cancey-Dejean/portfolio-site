@@ -15,4 +15,8 @@
   .container {
     @apply p-8;
   }
+
+  .page {
+    @apply p-[10rem] w-full h-full;
+  }
 }

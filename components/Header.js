@@ -9,7 +9,7 @@ const Header = ({ click }) => {
         <Logo click={click} />
 
         <div className="flex items-center gap-x-5">
-          <Link href="/">
+          <Link href="/works">
             <a
               style={{
                 color: click ? "#fcf6f4" : "#000",

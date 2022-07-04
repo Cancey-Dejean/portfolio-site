@@ -21,18 +21,26 @@ const Intro = ({ click }) => {
             fontSize: "calc(1em + 1.5vw)",
           }}
         >
-          <h1 className="font-bold text-[6rem]">Hi,</h1>
-          <h3 className="mb-[1.5rem] text-[4rem]">My Name is Cancey Dejean.</h3>
-          <h6 className="text-[#fcf6f4]/60 text-[2rem] font-light">
-            I'm a Frontend Developer with a focus in User Interaction.
-          </h6>
+          <motion.div
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 1 }}
+            transition={{ duration: 1, delay: 0.5 }}
+          >
+            <h1 className="font-bold text-[6rem]">Hi,</h1>
+            <h3 className="mb-[1.5rem] text-[4rem]">
+              My Name is Cancey Dejean.
+            </h3>
+            <h6 className="text-[#fcf6f4]/60 text-[2rem] font-light">
+              I'm a Frontend Developer with a focus in User Interaction.
+            </h6>
+          </motion.div>
         </div>
 
         <motion.div
           className="h-full"
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
-          transition={{ duration: 1, delay: 0.5 }}
+          transition={{ duration: 1, delay: 1 }}
         >
           <img
             className="object-cover h-full"
