@@ -12,7 +12,13 @@ export default function Home() {
   const handleClick = () => setClick(!click)
 
   return (
-    <div>
+    <div
+      className="h-full w-full bg-no-repeat bg-cover bg-center flex"
+      style={{
+        backgroundImage:
+          "url(https://cdn.shopify.com/s/files/1/0517/8146/8354/files/paper.jpg?v=1656883730)",
+      }}
+    >
       <Head>
         <title>Cancey Dejean | Frontend Developer - UI</title>
         <meta
@@ -23,10 +29,12 @@ export default function Home() {
       </Head>
 
       <Header click={click} />
-      <DarkSide click={click} />
-      <BigLogo click={click} handleClick={handleClick} />
-      <Socials click={click} />
-      {click ? <Intro click={click} /> : null}
+      <div className="page">
+        <DarkSide click={click} />
+        <BigLogo click={click} handleClick={handleClick} />
+        <Socials click={click} />
+        {click ? <Intro click={click} /> : null}
+      </div>
     </div>
   )
 }

@@ -18,7 +18,7 @@ const Header = ({ click }) => {
               Works
             </a>
           </Link>
-          <Link href="/">
+          <Link href="/skills">
             <a
               style={{
                 color: click ? "#fcf6f4" : "#000",
@@ -31,10 +31,10 @@ const Header = ({ click }) => {
       </div>
 
       <div className="flex items-center gap-x-5">
-        <Link href="/">
+        <Link href="/about">
           <a>About</a>
         </Link>
-        <Link href="/">
+        <Link href="/experience">
           <a>Experience</a>
         </Link>
       </div>
