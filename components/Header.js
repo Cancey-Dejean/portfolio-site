@@ -8,14 +8,14 @@ const Header = ({ click }) => {
       <div className="flex items-center gap-[3rem]">
         <Logo click={click} />
 
-        <div className="flex items-center gap-x-5">
-          <Link href="/works">
+        {/* <div className="flex items-center gap-x-5">
+          <Link href="/about">
             <a
               style={{
                 color: click ? "#fcf6f4" : "#000",
               }}
             >
-              Works
+              About
             </a>
           </Link>
           <Link href="/skills">
@@ -27,15 +27,18 @@ const Header = ({ click }) => {
               Skills
             </a>
           </Link>
-        </div>
+        </div> */}
       </div>
 
       <div className="flex items-center gap-x-5">
         <Link href="/about">
           <a>About</a>
         </Link>
-        <Link href="/experience">
-          <a>Experience</a>
+        <Link href="/works">
+          <a>Works</a>
+        </Link>
+        <Link href="/resume">
+          <a>Resume</a>
         </Link>
       </div>
 

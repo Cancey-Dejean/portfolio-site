@@ -1,14 +1,8 @@
-import Link from "next/link"
-
-const WorkCard = ({ name, url }) => {
+const WorkCard = ({ text, img }) => {
   return (
     <>
-      <Link href={url}>
-        <a>
-          <FaShopify className="object-cover h-[400px] w-[400px] rounded-lg" />
-          <h1>{name}</h1>
-        </a>
-      </Link>
+      <img src={img} className="h-[200px]" alt="" />
+      <h1>{text}</h1>
     </>
   )
 }

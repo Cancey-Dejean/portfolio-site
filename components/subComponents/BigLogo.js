@@ -1,4 +1,5 @@
 import Image from "next/image"
+import { BigLogoImg } from "../subComponents/images"
 
 const BigLogo = ({ handleClick, click }) => {
   return (
@@ -14,11 +15,7 @@ const BigLogo = ({ handleClick, click }) => {
           left: click ? "92%" : "50%",
         }}
       >
-        <Image
-          src="https://cdn.shopify.com/s/files/1/0517/8146/8354/files/my-logo.png?v=1656862677"
-          layout="fill"
-          priority={true}
-        />
+        <Image src={BigLogoImg} layout="fill" priority={true} />
         <span
           className="relative transition-all duration-[1s] ease-in-out"
           style={{

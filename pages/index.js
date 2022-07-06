@@ -12,13 +12,7 @@ export default function Home() {
   const handleClick = () => setClick(!click)
 
   return (
-    <div
-      className="h-full w-full bg-no-repeat bg-cover bg-center flex"
-      style={{
-        backgroundImage:
-          "url(https://cdn.shopify.com/s/files/1/0517/8146/8354/files/paper.jpg?v=1656883730)",
-      }}
-    >
+    <div className="page-wrapper">
       <Head>
         <title>Cancey Dejean | Frontend Developer - UI</title>
         <meta

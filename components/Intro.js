@@ -1,4 +1,6 @@
 import { motion } from "framer-motion"
+import Image from "next/image"
+import { About } from "../components/subComponents/images"
 
 const Intro = ({ click }) => {
   return (
@@ -26,12 +28,10 @@ const Intro = ({ click }) => {
             animate={{ opacity: 1 }}
             transition={{ duration: 1, delay: 0.5 }}
           >
-            <h1 className="font-bold text-[6rem]">Hi,</h1>
-            <h3 className="mb-[1.5rem] text-[4rem]">
-              My Name is Cancey Dejean.
-            </h3>
+            <h1 className="font-bold text-[5rem]">Cancey Dejean</h1>
+            <h3 className="mb-[1rem] text-[3rem]">Frontend Development</h3>
             <h6 className="text-[#fcf6f4]/60 text-[2rem] font-light">
-              I'm a Frontend Developer with a focus in User Interaction.
+              with a focus in User Interaction.
             </h6>
           </motion.div>
         </div>
@@ -42,10 +42,11 @@ const Intro = ({ click }) => {
           animate={{ opacity: 1 }}
           transition={{ duration: 1, delay: 1 }}
         >
-          <img
-            className="object-cover h-full"
-            src="https://cdn.shopify.com/s/files/1/0517/8146/8354/files/about.jpg?v=1656872441"
-            alt=""
+          <Image
+            src={About}
+            className="object-cover w-full h-full"
+            layout="responsive"
+            alt="About Image"
           />
         </motion.div>
       </div>
