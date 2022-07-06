@@ -19,7 +19,7 @@ const WorksPage = () => {
       <div className="page">
         <Title title="HTML Email" />
 
-        <div className="grid grid-cols-3 max-w-[1300px] w-full gap-x-[4rem] mx-auto text-center">
+        <div className="grid grid-cols-3 max-w-[1500px] w-full gap-x-[4rem] mx-auto text-center">
           {projects.map((project) => (
             <Link href={project.url} key={project.id}>
               <a>

@@ -1,7 +1,7 @@
 const WorkCard = ({ text, img }) => {
   return (
     <>
-      <img src={img} className="h-[200px]" alt="" />
+      <img src={img} className="w-full" alt="" />
       <h1>{text}</h1>
     </>
   )
