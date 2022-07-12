@@ -37,12 +37,9 @@ const Header = ({ click }) => {
         <Link href="/works">
           <a>Works</a>
         </Link>
-        <Link href="/resume">
-          <a>Resume</a>
-        </Link>
       </div>
 
-      <PowerButton />
+      {/* <PowerButton /> */}
     </header>
   )
 }

@@ -1,8 +1,10 @@
+import Image from "next/image"
+
 const WorkCard = ({ text, img }) => {
   return (
     <>
-      <img src={img} className="w-full" alt="" />
-      <h1>{text}</h1>
+      <img src={img} className="w-full" alt={text} />
+      <h4 className="">{text}</h4>
     </>
   )
 }

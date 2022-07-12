@@ -25,9 +25,10 @@ export default function Home() {
       <Header click={click} />
       <div className="page">
         <DarkSide click={click} />
-        <BigLogo click={click} handleClick={handleClick} />
+        {/* <BigLogo click={click} handleClick={handleClick} /> */}
         <Socials click={click} />
-        {click ? <Intro click={click} /> : null}
+        {/* {click ? <Intro click={click} /> : null} */}
+        <Intro click={click} />
       </div>
     </div>
   )

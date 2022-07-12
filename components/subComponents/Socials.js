@@ -8,20 +8,20 @@ const Socials = ({ click }) => {
         <Link href="https://www.linkedin.com/in/cancey-dejean/" passHref>
           <a target="_blank" rel="noopener noreferrer">
             <AiFillLinkedin
-              className="w-[30px] h-[30px]"
-              style={{
-                color: click ? "#fcf6f4" : "black",
-              }}
+              className="w-[30px] h-[30px] text-[#000] lg:text-[#fcf6f4]"
+              // style={{
+              //   color: click ? "#fcf6f4" : "black",
+              // }}
             />
           </a>
         </Link>
         <Link href="https://github.com/Cancey-Dejean" passHref>
           <a target="_blank" rel="noopener noreferrer">
             <AiFillGithub
-              className="w-[30px] h-[30px]"
-              style={{
-                color: click ? "#fcf6f4" : "black",
-              }}
+              className="w-[30px] h-[30px] text-[#000] lg:text-[#fcf6f4]"
+              // style={{
+              //   color: click ? "#fcf6f4" : "black",
+              // }}
             />
           </a>
         </Link>
@@ -31,20 +31,20 @@ const Socials = ({ click }) => {
         >
           <a target="_blank" rel="noopener noreferrer">
             <AiFillYoutube
-              className="w-[30px] h-[30px]"
-              style={{
-                color: click ? "#fcf6f4" : "black",
-              }}
+              className="w-[30px] h-[30px] text-[#000] lg:text-[#fcf6f4]"
+              // style={{
+              //   color: click ? "#fcf6f4" : "black",
+              // }}
             />
           </a>
         </Link>
       </div>
 
       <div
-        className="w-[2px] h-[8rem] bg-black"
-        style={{
-          backgroundColor: click ? "white" : "black",
-        }}
+        className="w-[2px] h-[2rem] bg-black lg:h-[8rem] text-[#000 lg:text-[#fcf6f4]"
+        // style={{
+        //   backgroundColor: click ? "white" : "black",
+        // }}
       ></div>
     </div>
   )

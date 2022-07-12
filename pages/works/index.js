@@ -3,8 +3,7 @@ import Head from "next/head"
 import Header from "../../components/Header"
 import Socials from "../../components/subComponents/Socials"
 import Title from "../../components/subComponents/Title"
-import WorkCard from "../../components/subComponents/workCard"
-import projects from "../../data/emailData"
+import { FaReact, FaHtml5 } from "react-icons/fa"
 
 const WorksPage = () => {
   return (
@@ -17,16 +16,22 @@ const WorksPage = () => {
 
       <Header />
       <div className="page">
-        <Title title="HTML Email" />
+        <Title title="Works" />
 
-        <div className="grid grid-cols-3 max-w-[1500px] w-full gap-x-[4rem] mx-auto text-center">
-          {projects.map((project) => (
-            <Link href={project.url} key={project.id}>
-              <a>
-                <WorkCard text={project.name} img={project.image} />
-              </a>
-            </Link>
-          ))}
+        <div className="grid grid-cols-2 max-w-[1300px] w-full gap-x-[4rem] mx-auto text-center">
+          <Link href="/works/react">
+            <a className="border border-black p-[30px]">
+              <FaReact className="h-[300px] w-[300px] mx-auto" />
+              <h4 className="mt-[30px]">React</h4>
+            </a>
+          </Link>
+
+          <Link href="/works/html-email">
+            <a className="border border-black p-[30px]">
+              <FaHtml5 className="h-[300px] w-[300px] mx-auto" />
+              <h4 className="mt-[30px]">HTML Email</h4>
+            </a>
+          </Link>
         </div>
       </div>
 
