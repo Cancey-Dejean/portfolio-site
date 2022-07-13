@@ -8,7 +8,7 @@ const Socials = ({ click }) => {
         <Link href="https://www.linkedin.com/in/cancey-dejean/" passHref>
           <a target="_blank" rel="noopener noreferrer">
             <AiFillLinkedin
-              className="w-[30px] h-[30px] text-[#000] lg:text-[#fcf6f4]"
+              className="w-[30px] h-[30px] text-[#000] lg:text-[#fcf6f4] social-link"
               // style={{
               //   color: click ? "#fcf6f4" : "black",
               // }}
@@ -18,7 +18,7 @@ const Socials = ({ click }) => {
         <Link href="https://github.com/Cancey-Dejean" passHref>
           <a target="_blank" rel="noopener noreferrer">
             <AiFillGithub
-              className="w-[30px] h-[30px] text-[#000] lg:text-[#fcf6f4]"
+              className="w-[30px] h-[30px] text-[#000] lg:text-[#fcf6f4] social-link"
               // style={{
               //   color: click ? "#fcf6f4" : "black",
               // }}
@@ -31,7 +31,7 @@ const Socials = ({ click }) => {
         >
           <a target="_blank" rel="noopener noreferrer">
             <AiFillYoutube
-              className="w-[30px] h-[30px] text-[#000] lg:text-[#fcf6f4]"
+              className="w-[30px] h-[30px] text-[#000] lg:text-[#fcf6f4] social-link"
               // style={{
               //   color: click ? "#fcf6f4" : "black",
               // }}
@@ -41,7 +41,7 @@ const Socials = ({ click }) => {
       </div>
 
       <div
-        className="w-[2px] h-[2rem] bg-black lg:h-[8rem] text-[#000 lg:text-[#fcf6f4]"
+        className="w-[2px] h-[2rem] bg-black md:h-[8rem] text-[#000 lg:text-[#fcf6f4] lg:bg-[#fcf6f4] social-bar"
         // style={{
         //   backgroundColor: click ? "white" : "black",
         // }}

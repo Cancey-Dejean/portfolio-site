@@ -16,9 +16,25 @@
     @apply p-8;
   }
 
+  .page-inner .page {
+    @apply px-0;
+  }
+
   .page {
-    @apply px-[1rem] w-full h-full relative flex flex-col items-center lg:p-[10rem];
+    @apply px-[2rem] py-[10rem] w-full h-full relative flex flex-col items-center lg:p-[10rem];
     background-color: rgba(252, 246, 244, 0.7);
+  }
+
+  .page-inner .social-link {
+    @apply text-black;
+  }
+
+  .page-inner .social-bar {
+    @apply bg-black;
+  }
+
+  .page-inner .page-logo {
+    @apply text-black;
   }
 
   .page-wrapper {

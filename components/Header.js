@@ -6,7 +6,7 @@ const Header = ({ click }) => {
   return (
     <header className="fixed z-[4] top-0 left-0 p-[2rem] w-full flex items-center justify-between">
       <div className="flex items-center gap-[3rem]">
-        <Logo click={click} />
+        <Logo click={click} pageColor="page-logo" />
 
         {/* <div className="flex items-center gap-x-5">
           <Link href="/about">

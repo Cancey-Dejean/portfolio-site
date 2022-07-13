@@ -6,7 +6,7 @@ import projects from "../../data/reactData"
 
 const ReactProject = () => {
   return (
-    <div className="page-wrapper">
+    <div className="page-wrapper page-inner">
       <Head>
         <title>Cancey Dejean | React</title>
         <meta name="description" content="Shopify UI Stores." />

@@ -1,11 +1,11 @@
 import Link from "next/link"
 
-const Logo = ({ click }) => {
+const Logo = ({ click, pageColor }) => {
   return (
     <Link href="/">
       <a>
         <div
-          className="font-logo inline-block text-[3rem] relative z-[2] transition-colors duration-[.5s] ease-in-out text-[#fcf6f4]"
+          className={`font-logo text-black inline-block text-[3rem] relative z-[2] transition-colors duration-[.5s] ease-in-out lg:text-[#fcf6f4] ${pageColor}`}
           // style={{
           //   color: click ? "#fcf6f4" : "#000",
           // }}
