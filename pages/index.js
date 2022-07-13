@@ -12,7 +12,7 @@ export default function Home() {
   const handleClick = () => setClick(!click)
 
   return (
-    <div className="page-wrapper">
+    <div className="page-wrapper overflow-hidden">
       <Head>
         <title>Cancey Dejean | Frontend Developer - UI</title>
         <meta
@@ -23,7 +23,7 @@ export default function Home() {
       </Head>
 
       <Header click={click} />
-      <div className="page">
+      <div className="home w-screen h-screen">
         <DarkSide click={click} />
         {/* <BigLogo click={click} handleClick={handleClick} /> */}
         <Socials click={click} />

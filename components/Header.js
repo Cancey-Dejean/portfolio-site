@@ -4,7 +4,7 @@ import Link from "next/link"
 
 const Header = ({ click }) => {
   return (
-    <header className="fixed z-[4] top-0 left-0 p-[2rem] w-full flex items-center justify-between">
+    <header className="fixed z-[4] top-0 left-0 p-[1rem] w-full flex items-center justify-between lg:p-[2rem]">
       <div className="flex items-center gap-[3rem]">
         <Logo click={click} pageColor="page-logo" />
 

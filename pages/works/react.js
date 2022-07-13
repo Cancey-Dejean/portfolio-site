@@ -9,7 +9,7 @@ const ReactProject = () => {
     <div className="page-wrapper page-inner">
       <Head>
         <title>Cancey Dejean | React</title>
-        <meta name="description" content="Shopify UI Stores." />
+        <meta name="description" content="React UI Projects" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
@@ -17,7 +17,7 @@ const ReactProject = () => {
       <div className="page">
         <Title title="React" />
 
-        <div className="grid grid-cols-2 max-w-[1500px] w-full gap-x-[3rem] mx-auto text-center">
+        <div className="grid px-[1rem] max-w-[1500px] w-full gap-y-[4rem] lg:gap-x-[4rem] mx-auto text-center lg:grid-cols-2">
           {projects.map((project) => (
             <Link href={project.url} key={project.id} passHref>
               <a

@@ -3,16 +3,14 @@ import Head from "next/head"
 import Header from "../../components/Header"
 import Socials from "../../components/subComponents/Socials"
 import Title from "../../components/subComponents/Title"
-import types from "../../data/typeData"
 import { FaReact, FaHtml5 } from "react-icons/fa"
-import WorkCard from "../../components/subComponents/WorkCard"
 
 const WorksPage = () => {
   return (
     <div className="page-wrapper page-inner">
       <Head>
         <title>Cancey Dejean | Frontend Developer - UI | Works</title>
-        <meta name="description" content="Email Projects" />
+        <meta name="description" content="Project Types" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
@@ -20,16 +18,8 @@ const WorksPage = () => {
       <div className="page">
         <Title title="Works" />
 
-        <div className="w-full gap-y-[4rem] mx-auto text-center lg:gap-x-[4rem]">
-          {types.map((type, index) => (
-            <Link href="" key={index}>
-              <a>
-                <WorkCard text={type.name} />
-              </a>
-            </Link>
-          ))}
-
-          {/* <Link href="/works/react">
+        <div className="grid px-[1rem] max-w-[1500px] w-full gap-y-[4rem] lg:gap-x-[4rem] mx-auto text-center lg:grid-cols-2">
+          <Link href="/works/react">
             <a className="border border-black p-[30px] w-full max-w-[400px] my-0 mx-auto lg:max-w-full">
               <FaReact className="h-[100px] w-[100px] lg:h-[300px] lg:w-[300px] mx-auto" />
               <h4 className="mt-[30px]">React</h4>
@@ -41,11 +31,9 @@ const WorksPage = () => {
               <FaHtml5 className="h-[100px] w-[100px] lg:h-[300px] lg:w-[300px] mx-auto" />
               <h4 className="mt-[30px]">HTML Email</h4>
             </a>
-          </Link> */}
+          </Link>
         </div>
       </div>
-
-      <Socials />
     </div>
   )
 }

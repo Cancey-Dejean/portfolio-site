@@ -20,8 +20,13 @@
     @apply px-0;
   }
 
+  .home {
+    @apply px-[1rem] w-screen h-screen;
+    background-color: rgba(252, 246, 244, 0.7);
+  }
+
   .page {
-    @apply px-[2rem] py-[10rem] w-full h-full relative flex flex-col items-center lg:p-[10rem];
+    @apply py-[10rem] w-full h-full relative flex flex-col items-center lg:p-[10rem] sm:w-screen sm:h-screen;
     background-color: rgba(252, 246, 244, 0.7);
   }
 
@@ -38,13 +43,7 @@
   }
 
   .page-wrapper {
-    width: 100%;
-    height: 100%;
-    background-repeat: no-repeat;
-    background-size: cover;
-    display: flex;
-    background-position: center;
-    background-image: url("https://cdn.shopify.com/s/files/1/0517/8146/8354/files/paper.jpg?v=1656883730");
+    @apply w-full h-full flex bg-no-repeat bg-cover bg-center bg-[url('https://cdn.shopify.com/s/files/1/0517/8146/8354/files/paper.jpg?v=1656883730')];
   }
 
   .custom-border {
