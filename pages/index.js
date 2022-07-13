@@ -2,7 +2,6 @@ import Head from "next/head"
 import { useState } from "react"
 import Header from "../components/Header"
 import Intro from "../components/Intro"
-import BigLogo from "../components/subComponents/BigLogo"
 import DarkSide from "../components/subComponents/DarkSide"
 import Socials from "../components/subComponents/Socials"
 

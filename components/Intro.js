@@ -23,7 +23,7 @@ const Intro = ({ click }) => {
               Frontend Developer
             </h3>
             <h6 className="font-light text-[1.2rem] lg:text-[#fcf6f4]/60 2xl:text-[1.8rem]">
-              with a focus in User Interaction (UI).
+              with a focus in User Interaction.
             </h6>
           </motion.div>
         </div>

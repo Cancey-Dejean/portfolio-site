@@ -6,7 +6,7 @@
 /* html, body, h1, img, etc */
 @layer base {
   body {
-    @apply font-body bg-[#fcf6f4];
+    @apply font-body bg-[#fcf6f4] text-[18px];
   }
 }
 
