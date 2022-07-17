@@ -21,7 +21,7 @@
   }
 
   .home {
-    @apply px-[1rem];
+    @apply px-[1rem] w-screen h-screen;
     background-color: rgba(252, 246, 244, 0.7);
   }
 

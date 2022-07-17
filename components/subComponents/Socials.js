@@ -3,8 +3,8 @@ import { AiFillLinkedin, AiFillYoutube, AiFillGithub } from "react-icons/ai"
 
 const Socials = ({ click }) => {
   return (
-    <div className="flex flex-col items-center z-[3] fixed bottom-0 left-[2rem]">
-      <div className="flex flex-col gap-y-[.5rem] mb-[5px]">
+    <div className="flex items-center z-[3] fixed bottom-[30px] flex-col left-[50%] transform translate-x-[-50%] sm:bottom-0 sm:left-[2rem]">
+      <div className="flex justify-center gap-[1rem] sm:flex-col sm:gap-[.5rem] sm:mb-[5px]">
         <Link href="https://www.linkedin.com/in/cancey-dejean/" passHref>
           <a target="_blank" rel="noopener noreferrer">
             <AiFillLinkedin
@@ -41,7 +41,7 @@ const Socials = ({ click }) => {
       </div>
 
       <div
-        className="w-[2px] h-[2rem] bg-black md:h-[8rem] text-[#000 lg:text-[#fcf6f4] lg:bg-[#fcf6f4] social-bar"
+        className="hidden sm:flex w-[2px] h-[2rem] bg-black md:h-[8rem] text-[#000 lg:text-[#fcf6f4] lg:bg-[#fcf6f4] social-bar"
         // style={{
         //   backgroundColor: click ? "white" : "black",
         // }}
