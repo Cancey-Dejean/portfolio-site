@@ -24,7 +24,7 @@ export default function Home() {
       </Head>
 
       <Header click={click} />
-      <div className="home w-screen h-screen">
+      <div className="home overflow-hidden w-screen h-screen">
         <DarkSide click={click} />
         {/* <BigLogo click={click} handleClick={handleClick} /> */}
         <Socials click={click} />
