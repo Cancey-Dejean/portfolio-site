@@ -1,0 +1,20 @@
+[
+  {
+    "id": 1,
+    "name": "Dekker Store",
+    "image": "https://cdn.shopify.com/s/files/1/0517/8146/8354/files/dekker-device.png?v=1658073985",
+    "url": "https://store.teddekker.com/"
+  },
+  {
+    "id": 2,
+    "name": "Honest History",
+    "image": "https://cdn.shopify.com/s/files/1/0517/8146/8354/files/hh-device.png?v=1658073985",
+    "url": "https://honesthistory.co/"
+  },
+  {
+    "id": 3,
+    "name": "Full Focus Store",
+    "image": "https://cdn.shopify.com/s/files/1/0517/8146/8354/files/mh-device.png?v=1658073986",
+    "url": "https://fullfocusstore.com/"
+  }
+]

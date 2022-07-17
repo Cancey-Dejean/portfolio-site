@@ -2,13 +2,13 @@
   {
     "id": 1,
     "name": "Robotos NFT",
-    "image": "https://cdn.shopify.com/s/files/1/0517/8146/8354/files/nft-thumb.jpg?v=1657415513",
+    "image": "https://cdn.shopify.com/s/files/1/0517/8146/8354/files/robotos.png?v=1658075257",
     "url": "https://robots-nft.vercel.app/"
   },
   {
     "id": 2,
     "name": "Movie Streaming UI",
-    "image": "https://cdn.shopify.com/s/files/1/0517/8146/8354/files/movie-ui.jpg?v=1657415901",
+    "image": "https://cdn.shopify.com/s/files/1/0517/8146/8354/files/movie-ui.png?v=1658075257",
     "url": "https://the-movie-app-ui-cancey-dejean.vercel.app/"
   }
 ]

@@ -27,7 +27,7 @@ const ReactProject = () => {
               >
                 <img
                   src={project.image}
-                  className="w-full"
+                  className="w-full max-w-[80%] mx-auto py-[30px]"
                   alt={project.name}
                 />
                 <h4 className="mt-[20px] font-bold uppercase text-black text-[20px]">

@@ -13,10 +13,12 @@ export default function Home() {
   return (
     <div className="page-wrapper overflow-hidden">
       <Head>
-        <title>Cancey Dejean | Frontend Developer - UI</title>
+        <title>
+          Cancey Dejean | Frontend Developer - User Interface Design
+        </title>
         <meta
           name="description"
-          content="Frontend developer with a passion for UI. I'm a Frontend developer with a background in building beautiful, functional, and responsive web experiences."
+          content="Frontend developer with a passion for User Interface Design. I'm a Frontend developer with a background in building beautiful, functional, and responsive web experiences."
         />
         <link rel="icon" href="/favicon.ico" />
       </Head>

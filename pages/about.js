@@ -17,7 +17,9 @@ const About = () => {
   return (
     <div className="page-wrapper page-inner">
       <Head>
-        <title>Cancey Dejean | Frontend Developer - UI | About</title>
+        <title>
+          Cancey Dejean | Frontend Developer - User Interface Design | About
+        </title>
         <meta name="description" content="Project Types" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
@@ -29,10 +31,10 @@ const About = () => {
         <div className="grid px-[1rem] max-w-[600px] mx-auto items-center text-center w-full gap-y-[2rem] lg:max-w-[1300px] lg:text-left lg:gap-y-[4rem] lg:gap-x-[4rem] lg:grid-cols-2">
           <div className="order-2">
             <p className="mb-4">
-              My name is Cancey Dejean and I am Frontend Developer. I have
+              My name is Cancey Dejean and I am a Frontend UI Developer. I have
               worked in many different technology stacks and have worked with
-              Design, Email, Product Management and Backend developer to create
-              digital experiences.
+              Design, Email, Product Management and Backend developer teams to
+              create digital experiences.
             </p>
 
             <div className="flex gap-3 flex-wrap justify-center lg:justify-start">

@@ -25,11 +25,6 @@
     background-color: rgba(252, 246, 244, 0.7);
   }
 
-  .page {
-    @apply py-[10rem] w-full h-full relative flex flex-col items-center lg:p-[10rem] sm:w-screen sm:h-screen;
-    background-color: rgba(252, 246, 244, 0.7);
-  }
-
   .page-inner .social-link {
     @apply text-black;
   }
@@ -39,7 +34,20 @@
   }
 
   .page-inner .page-logo {
-    @apply text-black;
+    @apply text-[#fcf6f4];
+  }
+
+  .page-inner header {
+    @apply bg-black py-[1rem];
+  }
+
+  .page-inner header a {
+    @apply bg-black !text-white;
+  }
+
+  .page {
+    @apply py-[10rem] w-full h-full relative flex flex-col items-center lg:p-[10rem] sm:w-screen sm:h-screen;
+    background-color: rgba(252, 246, 244, 0.7);
   }
 
   .page-wrapper {
