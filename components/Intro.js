@@ -22,7 +22,7 @@ const Intro = ({ click }) => {
             <h3 className="mb-[.5rem] text-[1.8rem] sm:text-[2.5rem] 2xl:text-[3.5rem]">
               Frontend Developer
             </h3>
-            <h6 className="font-light text-[1.2rem] lg:text-[#fcf6f4]/60 2xl:text-[1.8rem]">
+            <h6 className="font-light text-[1.5rem] lg:text-[#fcf6f4]/60 2xl:text-[1.8rem]">
               with a focus in User Interface Design.
             </h6>
           </motion.div>
